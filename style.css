@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #B4D984;
+    gap: 20px;
+}
+
+header input {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    padding: 25px 25px;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    color: #000;
+    gap: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0 15px;
+}
+
+.header-button i {
+    font-size: 30px;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 28px;
+    padding: 30px;
+    scrollbar-width: none;
+}
+
+.scroll-item {
+    height: 120px;
+    display: flex;
+}
+
+.hero {
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.cat-button {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.prod-card {
+    padding: 50px;
+}
+
+.prod-card img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.prod-card h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.prod-card p {
+    font-size: 12px;
+}
